@@ -110,7 +110,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(372, 146);
             this.button5.TabIndex = 0;
-            this.button5.Text = "Create";
+            this.button5.Text = "Add Data";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -122,6 +122,7 @@
             this.button6.TabIndex = 1;
             this.button6.Text = "Update";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button8
             // 
@@ -131,6 +132,7 @@
             this.button8.TabIndex = 3;
             this.button8.Text = "Delete";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -140,6 +142,7 @@
             this.button7.TabIndex = 4;
             this.button7.Text = "List All Data";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // panel2
             // 
@@ -157,13 +160,15 @@
             this.button9.TabIndex = 2;
             this.button9.Text = "List a Data";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // StartFrame
             // 
-            this.ClientSize = new System.Drawing.Size(813, 435);
+            this.ClientSize = new System.Drawing.Size(813, 352);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "StartFrame";
+            this.Load += new System.EventHandler(this.StartFrame_Load);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
